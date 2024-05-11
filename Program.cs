@@ -17,7 +17,7 @@
         {
             nome = Console.ReadLine();
             if (string.IsNullOrEmpty(nome))
-                Console.WriteLine("O Nome do Heróo não pode ficar em branco. Tente novamente.");
+                Console.WriteLine("O Nome do Herói não pode ficar em branco. Tente novamente.");
         } while (string.IsNullOrEmpty(nome));
 
         Console.WriteLine("Digite a Experiência(XP) do Herói:");
